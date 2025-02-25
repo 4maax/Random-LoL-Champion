@@ -1,0 +1,148 @@
+body {
+    background-image: url("leaguesida.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* Centrerar innehållet */
+    height: 100vh;
+}
+
+
+
+.role-buttons {
+    background-color: #11192fdf;
+    width: 300px;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 12px;
+    margin-bottom: 8px;
+    border: 2px solid #a1814a;
+    border-radius: 10px;
+}
+
+.roleBtn {
+    cursor: pointer;
+    background-size: cover;
+    padding: 11px 15px;
+    opacity: 1;
+    transition: opacity 0.3s;
+    color: transparent;
+
+}
+
+#adc-button {
+    background-image: url(LanesImages/adc.jpg);
+}
+
+#supp-button {
+    background-image: url(LanesImages/supportlane.png);
+}
+
+#top-button {
+    background-image: url(LanesImages/leaguetoplane.png);
+}
+
+#jgl-button {
+    background-image: url(LanesImages/junglelane.png);
+}
+
+#mid-button {
+    background-image: url(LanesImages/midlane.jpg);
+}
+
+
+.roleBtn:hover {
+    opacity: 60%;
+}
+
+.roleBtn:focus {
+    opacity: 40%;
+
+}
+
+#shuffle-button {
+    cursor: pointer;
+    padding: 15px 100px;
+    background-color: #172037;
+    font-size: xx-large;
+    border-radius: 12px;
+    border: 1px solid #a1814a;
+    color: #dfbe87;
+}
+
+#shuffle-button:hover {
+    background-color: #0e1528; 
+}
+
+#shuffle-button:active {
+    background-color: #172037;
+}
+
+
+
+.container {
+    border: 1px solid #a1814a;
+    background-color: #172037;
+    max-width: 800px;
+    width: 700px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.bottom-buttons {
+    background-color: transparent;
+    width: 700px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 0;
+    z-index: 10;
+}
+
+#champName {
+    color: #dfbe87;
+    font-size: 45px;
+    position: absolute;
+    top: 60%;
+}
+
+#chosenLane {
+
+    margin-bottom: 70%;
+    color: #dfbe87;
+    font-size: 30px;
+    text-align: center;
+}
+
+.img-box {
+    text-align: center;
+    background-color: gray;
+    width: 230px;
+    height: 230px;
+    position: absolute;
+    top: 47%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#champDisplay {
+    width: 100%;
+    height: 100%;
+}
